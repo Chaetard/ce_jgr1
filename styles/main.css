@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* Selectores */
+
+/* ID  #*/
+
+#principal{
+width: 300px;
+height: 300px;
+    
+
+}
+/* CLASE .CLASSNAME */
+.contenedor{
+width: 150px;
+height: 150px;
+background-color: beige;
+}
+/* ETIQUETA O TAG, MAIN SECTION */
+
+section{
+    color: antiquewhite; 
+}
+
+#principal:hover, div:hover, .contenedor:hover{
+border: 2px solid red; 
+}
+
+.contenedor div{
+    display: none
+}
